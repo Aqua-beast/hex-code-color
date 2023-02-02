@@ -1,0 +1,53 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    border: 2px solid black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hexcolors{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.hexcolors h1{
+    font-family: 'Nixie One', cursive;
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: changecolor 5s infinite alternate;
+}
+
+@keyframes changecolor{
+    0%{
+        color:bisque;
+    }
+
+    20%{
+        color:brown;
+    }
+
+    40%{
+        color:chartreuse;
+    }
+
+    60%{
+        color:cornflowerblue;
+    }
+    
+    80%{
+        color:darkkhaki
+    }
+
+    100%{
+        color:darkmagenta;
+    }
+}
+
+.hexcolors h3{
+    font-size: 1.5rem;
+}
